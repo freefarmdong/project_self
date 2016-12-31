@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/register.css">
+ </head>
+ <body>
+ <div id="register_top"></div>
+ <video src="resource/snow.mp4" autoplay loop></video>
+ <div id="register">
+	<p id="logo"><b></b>有观点的聆听！</p>
+	<p id="register_tip">在这个站点注册</p>
+	<form id="form-register">
+       <p><b>用户名：</b><br>
+       <input id="uname" type="text" required autofocus name="uname" pattern="^[A-Za-z0-9]{8,16}$"
+           placeholder="请输入用户名"/><br>
+       <span id="nameMsg"></span></p>
+       <p><b>密码：</b><br>
+	   <input  id="upwd" type="password" name="upwd" pattern="^\d{6,9}$" minlength="6"
+               maxlength="9" required placeholder="请输入密码"/><br>
+       <span id="pwdMsg"></span></p>
+       <p><b>电子邮箱：</b><br>
+	   <input id="email" type="email" name="email" placeholder="请输入电子邮箱"/><br>
+       <span id="emailMsg"></span></p>
+       <input type="button" value="注册" id="btn_register"/>
+    </form>
+	</div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/register.js"></script>
+	<script>
+
+	</script>
+ </body>
+</html>

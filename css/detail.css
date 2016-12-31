@@ -1,0 +1,323 @@
+/*页面主体左部*/
+#main{
+  min-height:1800px;
+  background-color:#E4E4E4;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+#main>#left{
+  float:left;
+  position:relative;
+  padding-left:10px;
+  margin-top:20px;
+  margin-left:180px;
+  width:610px;
+  height:600px;
+  line-height:35px;
+  border:1px solid transparent;
+  background:#fff;
+  padding-bottom:10px;
+}
+div#img{
+ display:inline-block;
+ border:1px solid #ccc;
+ padding:10px 5px 0px 5px;
+ margin-bottom:0.5em;
+}
+#left>p>#comment_time{
+  display:inline-block;
+  width:15px;
+  height:13px;
+  margin-right:5px;
+  margin-top:5px;
+  background:url(../images/iconlist_1.jpg)  no-repeat -35px -18px;
+}
+#left>p>#content{
+  display:inline-block;
+  width:15px;
+  height:13px;
+  margin-right:5px;
+  margin-left:15px;
+  margin-top:5px;
+  background:url(../images/iconlist_1.jpg)  no-repeat -58px -20px;
+}
+audio{
+  display:block;
+  border:1px solid #000;
+}
+#ctr_music{
+  border:3px solid red;
+  border-radius:5%;
+  width:250px;
+  height:27px;
+  position:relative;
+}
+#ctr_music>#words{
+  position:absolute;
+  top:0px;
+  left:32px;
+}
+#ctr_music>#ting{
+  padding-left:27px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  left:0;
+  background:url(../images/iconlist_1.jpg) no-repeat -97px -139px;
+}
+#ctr_music>#control{
+  padding-left:27px;
+  padding-bottom:27px;
+  position:absolute;
+  top:0;
+  left:223px;
+  background:url(../images/iconlist_1.jpg) no-repeat -143px -141px;
+}
+#left>#info{
+  margin-top:10px;
+  font-weight:bold;
+  font-size:14px;
+}
+#left>#share{
+  /*border:2px solid #afa;*/
+  min-height:20px;
+  margin-top:1em;
+}
+#left>#share>b{
+ display:inline-block;
+ width:15px;
+ height:15px;
+ border:1px solid #000;
+ margin-left:5px;
+}
+#left>#type{
+  min-height:20px;
+  margin-top:1em;
+}
+#left>#type>p.lf>b{
+ display:inline-block;
+ width:15px;
+ height:15px;
+ margin-right:5px;
+ background:url(../images/iconlist_1.jpg) no-repeat -80px -18px;
+}
+#left>#type>p.rt>b{
+ display:inline-block;
+ width:15px;
+ height:15px;
+ margin-right:5px;
+ background:url(../images/iconlist_1.jpg) no-repeat -102px -20px;
+}
+/*页面主体右部*/
+#main>#right{
+  float:left;
+  width:303px;
+  min-height:1000px;
+  margin-left:20px;
+}
+/********功能***********/
+#right_useable{
+  margin-top:20px;
+  width:303px;
+  height:215px;
+  border:1px solid transparent;
+  background:#fff;
+}
+#right p.top{
+ font-size:14px;
+ font-weight:bold;
+ border-bottom:1px solid #DBDBDB;
+ height:42px;
+ line-height:42px;
+ padding-left:10px;
+ margin-bottom:10px;
+}
+#right_useable div>p{
+  padding-left:10px;
+  margin:10px 0;
+  color:#777777;
+}
+#right_useable div>p a{
+  color:#777777;
+}
+/**关注微信*/
+#right_attention{
+  width:305px;
+  height:320px;
+  background:#fff;
+  border:1px solid transparent;
+  margin-top:0px;
+  margin-bottom:10px;
+}
+#right_attention div{
+  border:1px solid transparent;
+  padding:10px 25px;
+}
+/**随机文章**/
+#right_article{
+  width:305px;
+  height:254px;
+  border:1px solid transparent;
+  background:#fff;
+  /*margin-top:10px;*/
+}
+#right_article>div{
+  padding-left:10px;
+}
+#right_article>div>p{
+  height:20px;
+  height:20px;
+  margin:10px 0;
+  color:#777777;
+}
+#right_article>div>p>a{
+  color:#777777;
+  font-family:simsun;
+  font-size:14px;
+}
+/****最近评论**********/
+#right_recently{
+  width:305px;
+  height:577px;
+  background:#fff;
+  border:1px solid transparent;
+  margin-top:10px;
+}
+#right_recently>div{
+  margin:10px auto;
+  padding-top:10px;
+  width:278px;
+  height:80px;
+  border:1px solid transparent;
+  border-top:1px solid #ddd;
+}
+#right_recently img{
+  float:left;
+  margin-right:10px;
+}
+#recently_comment{
+  float:left;
+  width:210px;
+  line-height:20px;
+}
+#comment_username>b{
+  color:#999;
+  font-weight:normal;
+}
+/*******友情链接******/
+#right_link{
+  width:305px;
+  height:500px;
+  border:1px solid transparent;
+  margin-top:10px;
+  background:#fff;
+}
+#right_link>div>p{
+  line-height:30px; 
+  height:30px;
+  padding-left:20px;
+ 
+}
+#right_link>div>p>b{
+  display:inline-block;
+  width:7px;
+  height:3px;
+  margin-right:10px;
+  border:1px solid #848484;
+  background:#A8A8A8;
+}
+#right_link>div>p>a{
+  color:#777777;
+  font-family:simsun;
+}
+
+/******滚动球*******/
+#boll{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  border-radius:50%;
+  text-align:center;
+  vertical-align:middle;
+  background:black;
+  font-size:30px;
+  color:#fff;
+  font-weight:bold;
+  position:fixed;
+  left:93%;
+  top:90%;
+  transition-property:all;
+  transition-duration:1s;
+  transition-timing-function:linear;
+}
+
+/**模态登录框**/
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .7);
+    z-index: 999;
+    display: none;
+}
+div.fade{
+  display:none; 
+  transition:display 2s linear;
+}
+/*#a_login:hover .modal{*/
+  /*display:block;*/
+/*}*/
+.modal-dialog {
+    width: 330px;
+    margin: 100px auto;
+}
+.modal-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+}
+.modal-content #login_logo {
+    font-size: 1.5em;
+    font-family:'方正舒体';
+	font-size:32px;
+    vertical-align:middle;
+    margin-bottom:1em;
+}
+.modal-content #login_logo>b{
+  padding:15px 0 20px 67px;
+  background:url(../images/iconlist_1.jpg) no-repeat -8px -127px;
+}
+#login_logo>#login_close{
+  float:right;
+  font-size:7px;
+  color:#f88;
+  opacity:.6;
+}
+#login_logo>#login_close:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.modal-content .alert {
+    margin: 15px 0;
+    border: 1px solid #e4393c;
+    background: #fee;
+    color: #e4393c;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+}
+.modal-content input {
+    box-sizing: border-box; /*总宽=width+margin*/
+    width: 100%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+
+}

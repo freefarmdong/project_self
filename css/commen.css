@@ -1,0 +1,143 @@
+body{
+  font-size:12px;
+  color:#666;
+  font-family:"microsoft yahei",Arial,sans-serif;
+  margin:0;
+  padding:0;
+  background:#e4e4e4;
+}
+ul,p,h1,h2,h3,h4,h5,h6,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+input{border:0;}
+
+.lf{float:left;}
+
+.rt{float:right;}
+
+.clear{clear:both;}
+
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+/***************整体布局****************/
+#top,#top_box,#main,#foot_box,#footer{
+	width:100%;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+/*************顶部图片*****************/
+#top{
+  height:136px;
+  background:url(../images/page_top.jpg) no-repeat;
+}
+/*************顶部搜索框*****************/
+#top_box{
+  margin-top:0px;
+  height:43px;
+  background-color:#525252;
+  border-top:1px solid #7E7E7E;
+  border-bottom:1px solid #000;
+  padding-right:2px;
+}
+#top_box ul{
+  
+  margin-left:180px;
+}
+#top_box ul li{
+  float:left;
+  height:43px;
+  line-height:43px;
+  padding-right:15px;
+  margin:0 10px;
+}
+#top_box ul li>a{
+  display:block;
+  color:#DDE4DE;
+  font-size:16px;
+}
+#top_box  #search{
+  margin-top:7px;
+  height:25px;
+  width:140px;
+  float:left;
+  margin-left:300px;
+  position:relative;
+}
+#top_box div>input{
+ height:25px;
+ width:140px;
+ padding-right:0px;
+ background-color:#D4D4D4; 
+ border:1px solid #444444;
+ border-radius:5px;
+}
+#top_box div b>a{
+  width:15px;
+  height:15px;
+  border:0px solid ;
+  background:url(../images/iconlist_1.jpg) no-repeat -12px -17px;
+  background-color:#D3D3D3;
+  position:absolute;
+  top:25%;
+  left:125px;
+}
+/**********页面导航*************/
+#nav{
+   box-sizing:border-box;
+   padding-left:180px;
+	margin:0 auto;
+	border:1px solid transparent;
+	background:#F1F1F1;
+}
+#nav ul{
+ box-sizing:border-box;
+ height:25px;
+ margin:0;
+}
+#nav ul li{
+  float:left;
+  height:25px;
+  line-height:25px;
+}
+#nav ul li>b{
+ height:5px;
+
+ padding:0 0px 5px 5px;
+ border-left:1px solid #F1F1F1;
+ margin:0px;
+}
+#nav ul li>a{
+margin:6px 5px 0 5px;
+padding:0px 8px;
+display:inline-block;
+color:#333333;
+}
+
+/*页面主体*/
+#footer>#foot_box{
+  height:50px;
+  background:#848484;
+}
+#foot_box{
+  font-family:Segoe Script;
+  color:#fff;
+ 
+  font-size:11px;
+}
+#foot_box p{
+  margin-top:30px;
+}
+ 
+#foot_box i{
+  font-family:Adobe Gurmukhi;
+}
+#foot_box u{
+  padding:0px 0 0px 33px;
+  background:url(../images/iconlist_1.jpg) no-repeat -82px -94px;
+}

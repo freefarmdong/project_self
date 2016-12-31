@@ -1,0 +1,99 @@
+body{
+  /*text-align:center;*/
+  position:relative;
+}
+
+/*顶部图片*/
+#register_top{
+  height:100px;
+  background:url(../images/page_top.jpg) no-repeat;
+}
+video{
+  position:absolute;
+  z-index: -1;
+  width:1000px;
+  top:150px;
+  left:9%;
+}
+/*注册块*/
+#register{
+  /*border:1px solid #000;*/
+  width:300px;
+  min-height:300px;
+  margin:100px auto;
+  text-align:left;
+  position:absolute;
+  background: #fff;
+  opacity:.7;
+  top:100px;
+  left:37%;
+  box-shadow:0 0 5px 5px #E3E3E3;
+}
+#logo>b{
+ padding:15px 0 20px 67px;
+ background:url(../images/iconlist_1.jpg) no-repeat -8px -127px;
+}
+#logo{
+  font-family:'方正舒体';
+  font-size:30px;
+  margin-bottom:1em;
+}
+#register_tip{
+  border:1px solid #E8DA57;
+  background:#FFFEDF;
+  width:288px;
+  padding:5px 0 5px 10px;
+  text-align:left;
+  font-size:12px;
+  height:20px;
+  line-height:20px;
+  margin-bottom:1.5em;
+}
+
+/*注册信息表单*/
+#form-register{
+  padding-top:0.5em;
+  /*border:2px solid #ccc;*/
+
+}
+#form-register>p{
+    margin-top:1em;
+}
+#form-register>p>b{
+   margin-left:20px;
+    display:inline-block;
+    width:100px;
+}
+#form-register input{
+    margin-left:20px;
+    width:250px;
+    display:inline-block;
+    height:20px;
+    line-height: 20px;
+    border-radius:3px;
+	/*outline:0;*/
+}
+#form-register  #btn_register{
+    width:40px;
+    height:30px;
+    border:1px solid transparent;
+    border-radius:10px;
+    background:#277BA9;
+    color:#fff;
+    margin-left:220px;
+    /*margin-top:0.5em;*/
+	margin-bottom:1em;
+	text-align:right;
+}
+span{
+    display:inline-block;
+    width:250px;
+    height:18px;
+	font-size:12px;
+    border:1px solid transparent;
+    margin:8px 0px 0px 20px;
+    border-radius:4px;
+    padding:2px 0 2px 5px;
+    color:#fff;
+    font-weight:bold;
+}
